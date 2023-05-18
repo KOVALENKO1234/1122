@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Форма зворотнього зв'язку</title>
+    <style>
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 10px;
+        }
+        
+        input[type="submit"] {
+            align-self: flex-start;
+        }
+    </style>
+</head>
+<body>
+    <h1>Форма зворотнього зв'язку</h1>
+    <form action="#">
+        <label for="firstname">Ім'я:</label>
+        <input type="text" id="firstname" name="firstname">
+        
+        <label for="lastname">Прізвище:</label>
+        <input type="text" id="lastname" name="lastname">
+        
+        <input type="submit" name="submit" value="Відправити">
+    </form>
+</body>
+</html>
